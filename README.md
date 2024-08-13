@@ -17,15 +17,11 @@ La Patisserie Du Coeur is an e-commerce bakery website that allows users to conv
   - [Setting Up Emails (Optional)](#setting-up-emails-optional)
   - [Setting Up Stripe Test Payments (Optional)](#setting-up-stripe-test-payments-optional)
   - [Dependencies](#dependencies)
-## Structure (OutDated need to add the current version which is now AWS instead of GCP)
-![image](https://github.com/user-attachments/assets/1915c7be-1253-4ee5-9bf6-c230fafc36be)
-### GCE Containers:
-- **Nginx Container**: Acts as a bridge between the Django REST backend and the ReactJS frontend.
-  - Public IP address for internet access.
-- **Django REST Backend** and **ReactJS Frontend**:
-  - Configured with private IPs within the VPC.
-- **CloudSQL**
-  -  Utilizes Postgres and keeps track of user, session, and product data. 
+## Structure 
+### AWS
+![image](https://github.com/user-attachments/assets/1694e660-5e43-4808-b04d-b476d0aa2c1d)
+### GCP
+![image](https://github.com/user-attachments/assets/da113263-cb72-4327-a0a6-cfc8a90b5d4c)
 
 ## Features
 
